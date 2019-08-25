@@ -70,6 +70,7 @@ public class GroupChatGUI {
     }
     public void readFromSever (String msg){
         readFromSever.append(msg+"\n");
+        sendToSever.setText("");
     }
 
     public JFrame getFrame() {
